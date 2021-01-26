@@ -1,0 +1,39 @@
+/* BOUTONS RESERVATION */
+
+.boutonsRESERVATION {
+    height: 100px;
+}
+
+#ajouter, #supprimer{
+    height: 180px;
+    width: 180px;
+    border-radius: 10px;
+    border: solid  rgb(153, 153, 153) 5px;
+    border-style: dashed;
+    padding: 15px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+#ajouter p  {
+    color: rgb(153, 153, 153);
+    font-size: 100px;
+    margin-top: 30px;
+}
+
+
+/* RESERVATION AJOUT */
+.form-reservation {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+#form-item {
+    background-color: #ccc;
+    margin: 20px auto auto auto;
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 10px;
+}

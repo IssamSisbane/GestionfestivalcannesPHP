@@ -1,0 +1,148 @@
+* {
+  font-family: "Fjalla One", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* GLOBAL */
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  margin-left: 20px;
+}
+
+h1.titree {
+  text-align: center;
+}
+
+.user-infos {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 15px auto auto;
+  padding: 10px;
+  width: 250px;
+  border: solid black 1px;
+  border-radius: 10px;
+}
+
+.user-infos #item {
+  padding-bottom: 10px;
+}
+
+.user-icon {
+  height: 40px;
+  width: 40px;
+  vertical-align: middle;
+}
+
+.user-infos .name {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: auto;
+  display: inline;
+  vertical-align: middle;
+}
+
+.name-welcome {
+  font-size: 50px;
+  padding: 50px;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 25px;
+  background-color: rgb(61, 61, 61);
+  color: white;
+  text-align: center;
+}
+
+footer p {
+  margin-top: 0.2%;
+}
+
+/* LOGIN PAGE*/
+
+.login-box {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 11%;
+  width: 35%;
+}
+
+.login-box h1 {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.LogoFestival {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="date"],
+select[name="type_vip_choix"] {
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0 30px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+
+input[type="submit"] {
+  background-color: #d1d1d1;
+  color: black;
+  padding: 20px 0px;
+  margin: 8px;
+  border-radius: 6px;
+  border: none;
+  width: 15%;
+  float: right;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* GERANT PAGE */
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.gerant > div {
+  margin-bottom: 100px;
+}
+
+.gerant .access {
+  display: block;
+  margin: 50px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.home-icon {
+  height: 120px;
+  width: 120px;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #ccc;
+}

@@ -1,0 +1,85 @@
+/* HEBERGEMENT PAGE */
+
+.hebergements {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.item-carre {
+    margin-left: 50px;
+}
+
+.item-carre-center {
+    margin: auto;
+}
+
+
+
+#carre {
+    height: 190px;
+    width: 190px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #ccc;
+}
+
+@media (max-width: 1100px) {
+    .item-carre > p:last-child{
+        margin-bottom: 30px;
+    }
+}
+
+
+#ajouter {
+    height: 180px;
+    width: 180px;
+    border-radius: 10px;
+    border: solid  rgb(153, 153, 153) 5px;
+    border-style: dashed;
+    padding: 15px;
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+#ajouter p  {
+    color: rgb(153, 153, 153);
+    font-size: 100px;
+    margin-top: 30px;
+}
+
+
+/* HEBERGEMENT MODIFICATION PAGE */
+
+.form-hebergement {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+#form-item {
+    background-color: #ccc;
+    margin: 20px auto auto auto;
+    border: solid 2px black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.checkbox {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.textbox-choice {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 50%;
+}
+
+@media (min-width: 40em) {
+    .textbox-choice {
+        flex-basis: 30%;
+    }
+}
